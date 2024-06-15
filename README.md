@@ -9,3 +9,4 @@ Ideology - random stac of human ideas
 - scratch for lectures
 - scratch math
 - https://sujayr91.github.io/Im2Latex/
+- Fake shop 
