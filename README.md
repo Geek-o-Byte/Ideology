@@ -3,8 +3,8 @@ Ideology - random stac of human ideas
 
 ## List of ideas
 
-Deezee chat - designer in a chat
-comparator - wedsite to compare something
-search engine based on photos
-scratch for lectures
-scratch math 
+- Deezee chat - designer in a chat
+- comparator - wedsite to compare something
+- search engine based on photos
+- scratch for lectures
+- scratch math 
