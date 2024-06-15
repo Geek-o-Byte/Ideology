@@ -7,4 +7,5 @@ Ideology - random stac of human ideas
 - comparator - wedsite to compare something
 - search engine based on photos
 - scratch for lectures
-- scratch math 
+- scratch math
+- https://sujayr91.github.io/Im2Latex/
