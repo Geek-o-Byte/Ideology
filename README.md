@@ -5,3 +5,6 @@ Ideology - random stac of human ideas
 
 Deezee chat - designer in a chat
 comparator - wedsite to compare something
+search engine based on photos
+scratch for lectures
+scratch math 
