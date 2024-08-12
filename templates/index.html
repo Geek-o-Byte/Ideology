@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ideology</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Submit Your Idea</h1>
+        <form action="/add" method="post">
+            <input type="text" name="title" placeholder="Title" required>
+            <textarea name="description" placeholder="Description" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+
+        <h2>Ideas</h2>
+        <ul>
+            {% for idea in ideas %}
+            <li>
+                <div>
+                    <a href="/idea/{{ idea.uuid }}">{{ idea.title }}</a> - {{ idea.likes }} likes
+                </div>
+                <form action="/like/{{ idea.uuid }}" method="post">
+                    <button type="submit">👍</button>
+                </form>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</body>
+</html>

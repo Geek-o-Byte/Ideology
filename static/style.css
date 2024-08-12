@@ -1,0 +1,141 @@
+/* Основные стили для страницы */
+body {
+    font-family: 'Courier New', Courier, monospace; /* Моноширинный шрифт */
+    background-color: #f5f5f5; /* Светло-серый фон */
+    color: #000000; /* Черный текст */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin: 20px;
+}
+
+h1, h2 {
+    font-size: 2em;
+    margin: 20px 0;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+h1 {
+    color: #ffcc00; /* Акцентный цвет */
+}
+
+h2 {
+    color: #333333; /* Темно-серый для подзаголовков */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input, textarea, button {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #fafafa;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05); /* Внутренняя тень */
+}
+
+input:focus, textarea:focus, button:focus {
+    outline: none;
+    border-color: #ffcc00; /* Акцентный цвет на фокусе */
+}
+
+button {
+    background-color: #ffcc00; /* Яркая кнопка */
+    color: #000000;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    max-width: 200px;
+    text-align: center;
+}
+
+button:hover {
+    background-color: #e6b800; /* Немного затемняем на наведении */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+    width: 100%;
+}
+
+li {
+    background-color: #ffffff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li a {
+    color: #333333;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+li button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin-left: 10px;
+    color: #ffcc00;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+li button:hover {
+    color: #e6b800;
+}
+
+a {
+    color: #ffcc00; /* Ссылки в акцентном цвете */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #e6b800;
+}
+
+/* Для мобильных устройств */
+@media (max-width: 600px) {
+    h1, h2 {
+        font-size: 1.5em;
+    }
+
+    form, ul {
+        width: 100%;
+    }
+
+    input, textarea, button {
+        max-width: 100%;
+    }
+}
