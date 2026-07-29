@@ -10,3 +10,4 @@ Ideology - random stac of human ideas
 - scratch math
 - https://sujayr91.github.io/Im2Latex/
 - Fake shop 
+- Random terms for white list scientific paper 
